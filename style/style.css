@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 1px;
+    color: black;
+    
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #4CAF50, #1E88E5);
+    color: #333;
+}
+
+.header {
+    background-image: url("/imagens/prestadores-de-serviço1-920x380.jpg"); /* Insira o URL da imagem de fundo */
+    background-size: cover;
+    text-align: center;
+    padding: 10px 0;  
+}
+.container1 {
+    position: relative;
+    top: 15px;
+    right: 0px;
+    margin: 0%;
+}
+
+.container2 {
+    position: absolute;
+    top: 45px;
+    right: 50px;
+}
+
+
+.header img {
+    width: 500px;  
+}
+.search-container input[type="text"] {
+    border-radius: 20px;
+    position: absolute;
+    
+}
+    
+.search-container button {
+    border-radius: 20px;
+   
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+.search-bar {
+    border-radius: 40px;
+    padding: 0.5rem 1rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-icon {
+    position: absolute;
+    right: 10px;
+    top: 65%;
+    transform: translateY(-50%);
+    color: #888;
+    cursor: pointer;
+}
+
+
+.carousel {
+    width: 70%;
+    height: 100;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    margin: 0 auto;
+ 
+    
+}
+.btn {
+    display: inline-block;
+    padding: 10px 10px;
+    background: #22ac32;
+    color: #fff;
+    
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
